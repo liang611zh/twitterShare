@@ -47,6 +47,7 @@
 		11BB1B591F871371003F43E5 /* twitterDemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitterDemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11BB1B5D1F871371003F43E5 /* twitterDemo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitterDemo1UITests.swift; sourceTree = "<group>"; };
 		11BB1B5F1F871371003F43E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BB1BA51F872756003F43E5 /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		11BB1B3C1F871370003F43E5 /* twitterDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				11BB1BA51F872756003F43E5 /* paris.jpg */,
 				11BB1B3D1F871370003F43E5 /* AppDelegate.swift */,
 				11BB1B3F1F871370003F43E5 /* ViewController.swift */,
 				11BB1B411F871370003F43E5 /* Main.storyboard */,
@@ -429,11 +431,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E878DKBM82;
 				INFOPLIST_FILE = twitterDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.comp.twitterDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +447,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E878DKBM82;
 				INFOPLIST_FILE = twitterDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.comp.twitterDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

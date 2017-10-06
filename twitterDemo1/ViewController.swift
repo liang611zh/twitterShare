@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var textField: UITextField!
+    
+    @IBAction func twitter(_ sender: Any) {
+        let shareText = "Hello, world!"
 
+        let vc = UIActivityViewController(activityItems: [shareText, textField], applicationActivities: [])
+            present(vc, animated: true,completion: nil)
+    }
 }
 
